@@ -8,4 +8,9 @@ import lombok.ToString;
 @Setter
 @ToString
 public class WebLog {
+    private String userId;
+    private String url;
+    private String IpAddress;
+    private String timestamp;
+    private String sessionId;
 }
